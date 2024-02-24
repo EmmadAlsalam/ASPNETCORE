@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="wwwroot\Images\brand_1.svg" />
+    <None Include="wwwroot\Images\brand_2.svg" />
+    <None Include="wwwroot\Images\brand_3.svg" />
+    <None Include="wwwroot\Images\brand_4.svg" />
+    <None Include="wwwroot\Images\chat-icon.svg" />
+    <None Include="wwwroot\Images\data-icon.svg" />
+    <None Include="wwwroot\Images\MacBook Pro-dark.svg" />
+    <None Include="wwwroot\Images\MacBook Pro-light.svg" />
+    <None Include="wwwroot\Images\mockup.svg" />
+    <None Include="wwwroot\Images\multi-icon.svg" />
+    <None Include="wwwroot\Images\noti-icon.svg" />
+    <None Include="wwwroot\Images\pres-icon.svg" />
+    <None Include="wwwroot\Images\section-icon.svg" />
+    <None Include="wwwroot\Images\showcase.svg" />
+    <None Include="wwwroot\Images\silicon-logo-icon-type.svg" />
+    <None Include="wwwroot\Images\silicon-logo-light_theme.svg" />
+  </ItemGroup>
+
+</Project>
